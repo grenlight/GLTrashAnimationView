@@ -15,6 +15,8 @@
 		B8399BB21ACB66B100016866 /* GLTrashAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8399BB11ACB66B100016866 /* GLTrashAnimationView.swift */; };
 		B8399BB61ACB675500016866 /* OWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B8399BB51ACB675500016866 /* OWColor.m */; };
 		B8CA73E61ACBAD6400FE8E89 /* GLAnimationBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CA73E51ACBAD6400FE8E89 /* GLAnimationBasicView.swift */; };
+		B8F04A3B1ACBE34200BF3262 /* trashDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8F04A3A1ACBE34200BF3262 /* trashDemo.gif */; };
+		B8F04A3D1ACBE37000BF3262 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = B8F04A3C1ACBE37000BF3262 /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B8399BB41ACB675500016866 /* OWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWColor.h; sourceTree = "<group>"; };
 		B8399BB51ACB675500016866 /* OWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWColor.m; sourceTree = "<group>"; };
 		B8CA73E51ACBAD6400FE8E89 /* GLAnimationBasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLAnimationBasicView.swift; sourceTree = "<group>"; };
+		B8F04A3A1ACBE34200BF3262 /* trashDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = trashDemo.gif; sourceTree = "<group>"; };
+		B8F04A3C1ACBE37000BF3262 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		B8399B831ACB667B00016866 = {
 			isa = PBXGroup;
 			children = (
+				B8F04A3C1ACBE37000BF3262 /* README.MD */,
+				B8F04A3A1ACBE34200BF3262 /* trashDemo.gif */,
 				B8399B8E1ACB667B00016866 /* GLTrashAnimation */,
 				B8399B8D1ACB667B00016866 /* Products */,
 			);
@@ -142,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F04A3B1ACBE34200BF3262 /* trashDemo.gif in Resources */,
 				B8399B971ACB667B00016866 /* Main.storyboard in Resources */,
 				B8399B9C1ACB667B00016866 /* LaunchScreen.xib in Resources */,
 				B8399B991ACB667B00016866 /* Images.xcassets in Resources */,
@@ -155,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F04A3D1ACBE37000BF3262 /* README.MD in Sources */,
 				B8399BB21ACB66B100016866 /* GLTrashAnimationView.swift in Sources */,
 				B8399BB61ACB675500016866 /* OWColor.m in Sources */,
 				B8399B941ACB667B00016866 /* ViewController.swift in Sources */,
